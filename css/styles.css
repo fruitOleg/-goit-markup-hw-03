@@ -38,11 +38,6 @@ body {
   color: var(--accent-text-color);
 }
 .logo-head-accent {
-  font-family: var(--logo-fonts);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.1;
-  text-decoration: none;
   color: var(--main-text-color);
 }
 .nav-link-current {
@@ -234,11 +229,6 @@ body {
   color: var(--accent-text-color);
 }
 .logo-foot-accent {
-  font-family: var(--logo-fonts);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.1;
-  text-decoration: none;
   color: #ffffff;
 }
 .address {
