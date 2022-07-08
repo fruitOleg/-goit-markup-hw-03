@@ -12,7 +12,7 @@
   --accent-text-color: #2196f3;
 }
 
-   body {
+body {
   font-family: var(--main-fonts), sans-serif;
   color: var(--main-text-color);
 }
@@ -50,7 +50,7 @@
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-    text-decoration: none;
+  text-decoration: none;
   color: var(--accent-text-color);
 }
 .nav-link {
@@ -104,10 +104,10 @@
   background-color: var(--accent-text-color);
 }
 .order-button:hover {
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 .order-button:focus {
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 /*benefits section*/
 .visually-hidden {
@@ -158,7 +158,6 @@
   letter-spacing: 0.03em;
   color: #757575;
 }
-
 
 /*portfolio*/
 
