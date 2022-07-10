@@ -40,14 +40,7 @@ body {
 .logo-head-accent {
   color: var(--main-text-color);
 }
-.nav-link-current {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--accent-text-color);
-}
+
 .nav-link {
   font-weight: 500;
   font-size: 14px;
@@ -55,6 +48,14 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--main-text-color);
+}
+.current {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--accent-text-color);
 }
 .nav-link:hover {
   color: var(--accent-text-color);
@@ -169,16 +170,6 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.nav-butons-current {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  cursor: pointer;
-  background: var(--accent-text-color);
-}
 .nav-butons {
   font-weight: 500;
   font-size: 16px;
@@ -188,6 +179,16 @@ body {
   cursor: pointer;
   color: var(--main-text-color);
   background: var(--light-bg-color);
+}
+.current-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  cursor: pointer;
+  background: var(--accent-text-color);
 }
 .hero-title {
   font-weight: 700;
