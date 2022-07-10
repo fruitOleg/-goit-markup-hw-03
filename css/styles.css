@@ -16,6 +16,15 @@ body {
   font-family: var(--main-fonts), sans-serif;
   color: var(--main-text-color);
 }
+header {
+  border-bottom: 1px solid #ececec;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .list {
   list-style: none;
 }
@@ -30,14 +39,21 @@ body {
 .flex {
   display: flex;
 }
-
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .container {
   width: 1200px;
+  padding-left: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*header*/
 .logo {
-  margin: 25px 90px 25px 215px;
+  margin: 25px 90px;
 }
 .logo-head {
   font-family: var(--logo-fonts);
@@ -58,7 +74,9 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--main-text-color);
+
   padding-right: 50px;
+  display: block;
 }
 .current {
   font-weight: 500;
@@ -75,7 +93,6 @@ body {
   color: var(--accent-text-color);
 }
 .contacts {
-  margin-right: 215px;
   margin-left: auto;
 }
 .contacts-nav {
@@ -97,29 +114,29 @@ body {
 /*index html*/
 
 /*order section*/
-.section-wrap{
-   padding-top: 200px;
-   padding-bottom: 200px;
-   text-align: center;
+.section-wrap {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
 }
 .order-section {
   background: var(--dark-bg-color);
 }
-.order-title { 
-   width: 700px;
-   margin: 0 auto;
-  
-   text-transform: uppercase;
+.order-title {
+  width: 700px;
+  margin: 0 auto;
+
+  text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.3;
   color: #ffffff;
 }
 .order-button {
-   margin-top: 30px;
-   min-height: 50px;
-   min-width: 200px;
-   padding: 10px 32px;
+  margin-top: 30px;
+  min-height: 50px;
+  min-width: 200px;
+  padding: 10px 32px;
 
   font-weight: 700;
   font-size: 16px;
@@ -147,6 +164,12 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.benefit-cards {
+  width: 270px;
+}
+.list-benefits {
+  gap: 30px;
+}
 .benefit-title {
   font-weight: 700;
   font-size: 14px;
@@ -162,8 +185,13 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
+.list-work {
+  list-style: none;
+  gap: 30px;
+}
 
 /*hero section*/
+
 .hero-bg {
   background-color: var(--light-bg-color);
 }
@@ -182,6 +210,18 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.list-hero {
+  gap: 30px;
+}
+.bg-cards { 
+   overflow:hidden;
+  width: 270px;
+  
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /*portfolio*/
