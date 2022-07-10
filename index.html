@@ -22,33 +22,40 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a href="index.html" class="logo-head" lang="en"
+      <div class="flex">
+      <nav class="flex">
+        <a href="index.html" class="logo-head logo" lang="en"
           >Web<span class="logo-head-accent">Studio</span>
         </a>
-        <ul class="list">
+        <ul class="list flex">
           <li><a href="index.html" class="nav-link current">Студия</a></li>
           <li><a href="portfolio.html" class="nav-link">Портфолио</a></li>
           <li><a href="" class="nav-link">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="list">
+      <div class="contacts">
+      <ul class="list flex">
         <li>
           <a href="mailto:info@devstudio.com" class="contacts-nav">info@devstudio.com</a>
         </li>
-        <li><a href="tel:+380961111111" class="contacts-nav">+38 096 111 11 11</a></li>
+         <li>
+            <a href="tel:+380961111111" class="contacts-nav">+38 096 111 11 11</a>
+         </li>
       </ul>
+      </div>
     </header>
 
     <main>
-      <section class="order-section">
+      <section class="order-section section-wrap"> 
+      <div class="container">
         <h1 class="order-title">Эффективные решения для вашего бизнеса</h1>
         <button type="button" class="order-button">Заказать услугу</button>
+      </div>
       </section>
-
+      
       <section>
         <h2 class="visually-hidden">benefits</h2>
-        <ul class="list">
+        <ul class="list flex">
           <li>
             <h3 class="benefit-title">Внимание к деталям</h3>
             <p class="benefit-text">
