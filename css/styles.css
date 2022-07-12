@@ -313,8 +313,8 @@ img {
   background: var(--dark-bg-color);
   height: 252px;
 }
-.align-foot {
-  justify-items: flex-start;
+.foot-align{
+   padding-left: 0;
 }
 .logo-foot {
   padding-top: 20px;
@@ -326,9 +326,7 @@ img {
   text-decoration: none;
   color: var(--accent-text-color);
 }
-.row{
-   flex-direction: row;
-}
+
 .accent {
   color: #ffffff;
 }
@@ -344,6 +342,7 @@ img {
   text-decoration: none;
 }
 .contacts-foot {
+   
   display: block;
   padding-bottom: 9px;
   font-style: normal;
