@@ -25,10 +25,22 @@ img {
   height: auto;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
 .list {
   list-style: none;
 }
 .title {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
@@ -44,29 +56,34 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.section:nth-child(2) {
+  padding-bottom: 0;
+}
+
 .container {
   width: 1200px;
-  padding-left: 15px;
+  padding-right: 15px;
   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
 }
 
 /*header*/
-.logo {
-  margin: 25px 90px;
-}
 .logo-head {
   font-family: var(--logo-fonts);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.1;
   text-decoration: none;
-  padding-right: 50px;
   color: var(--accent-text-color);
 }
 .logo-head-accent {
   color: var(--main-text-color);
+}
+.nav-ul {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  gap: 50px;
 }
 .nav-link {
   font-weight: 500;
@@ -75,8 +92,7 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--main-text-color);
-
-  padding-right: 50px;
+  margin-left: 93px;
   display: block;
 }
 .current {
@@ -94,7 +110,10 @@ img {
   color: var(--accent-text-color);
 }
 .contacts {
+  padding-top: 32px;
+  padding-bottom: 32px;
   margin-left: auto;
+  gap: 50px;
 }
 .contacts-nav {
   font-weight: 500;
@@ -103,7 +122,6 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #757575;
-  padding-right: 50px;
 }
 .contacts-nav:hover {
   color: var(--accent-text-color);
@@ -134,9 +152,7 @@ img {
   color: #ffffff;
 }
 .order-button {
-  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border: #2196f3 solid;
   border-radius: 4px;
 
   margin-top: 30px;
@@ -201,6 +217,7 @@ img {
 .hero-bg {
   background-color: var(--light-bg-color);
 }
+
 .hero-name {
   font-weight: 500;
   font-size: 16px;
@@ -220,11 +237,15 @@ img {
 .list-hero {
   gap: 30px;
 }
-.bg-cards {
+  .hero-text-card{
+   padding: 30px 59px;
+  }
+.bg-cards { 
   overflow: hidden;
+  min-height: 368px;
   width: 270px;
   padding: auto;
-
+ 
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -262,6 +283,7 @@ img {
   padding: 6px 22px;
 }
 .flex-btn {
+  padding-top: 94px;
   justify-content: center;
   display: flex;
   gap: 8px;
