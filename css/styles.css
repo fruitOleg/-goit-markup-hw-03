@@ -81,18 +81,18 @@ ul {
   color: var(--main-text-color);
 }
 .nav-ul {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  margin-left: 93px;
   gap: 50px;
 }
 .nav-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--main-text-color);
-  margin-left: 93px;
   display: block;
 }
 .current {
@@ -110,8 +110,6 @@ ul {
   color: var(--accent-text-color);
 }
 .contacts {
-  padding-top: 32px;
-  padding-bottom: 32px;
   margin-left: auto;
   gap: 50px;
 }
@@ -202,6 +200,7 @@ ul {
   color: var(--main-text-color);
 }
 .benefit-text {
+   margin-top: 10px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -228,6 +227,7 @@ ul {
   color: var(--main-text-color);
 }
 .hero-text {
+   margin-top: 10px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.1;
@@ -238,15 +238,14 @@ ul {
 .list-hero {
   gap: 30px;
 }
-  .hero-text-card{
-   padding: 30px 59px;
-  }
-.bg-cards { 
-  overflow: hidden;
-  min-height: 368px;
+.hero-text-card {
+  padding: 30px 20px;
+}
+.bg-cards {
+  min-height: 370px;
   width: 270px;
   padding: auto;
- 
+
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -270,7 +269,7 @@ ul {
 }
 .nav-butons {
   background: #f5f4fa;
-  border: none; 
+  border: none;
   border-radius: 4px;
 
   font-weight: 500;
@@ -354,14 +353,15 @@ ul {
 
 /*footer*/
 .footer-bg {
+padding-top: 60px;
+padding-bottom: 60px;
   background: var(--dark-bg-color);
-  height: 252px;
 }
 .foot-align {
   padding-left: 0;
 }
 .logo-foot {
-  padding-top: 20px;
+margin-bottom: 20px;
   display: inline-block;
   font-family: var(--logo-fonts);
   font-weight: 700;
@@ -374,9 +374,12 @@ ul {
 .accent {
   color: #ffffff;
 }
+.list-foot-item{
+   margin-top: 0;
+   margin-bottom: 10px;
+}
 .address {
   display: block;
-  margin-bottom: 9px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -387,7 +390,6 @@ ul {
 }
 .contacts-foot {
   display: block;
-  padding-bottom: 9px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
